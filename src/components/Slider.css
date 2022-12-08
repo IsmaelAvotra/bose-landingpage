@@ -1,0 +1,33 @@
+.slider {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+@media screen and (max-width: 1025px) {
+  .slider {
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .slider {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider {
+    margin-left: 0;
+    padding: 0.5rem;
+  }
+}

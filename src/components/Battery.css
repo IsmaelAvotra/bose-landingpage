@@ -1,0 +1,86 @@
+.battery {
+  margin-top: 4rem;
+  padding: 2rem 4rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.battery .left {
+  flex: 1;
+  margin-top: 4rem;
+}
+
+.battery .left h2 {
+  font-size: 3rem;
+  color: #181945;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.battery .left p {
+  opacity: 0.7;
+}
+
+.battery .right {
+  flex: 1;
+}
+
+.battery .right .image {
+  position: relative;
+  background-image: url(../assets/waves.png);
+  background-size: cover;
+}
+
+.battery .right img:first-child {
+  width: 100%;
+}
+
+.battery .right img:nth-child(2) {
+  position: absolute;
+  width: 5rem;
+  bottom: -0.8rem;
+  right: 7rem;
+}
+
+@media screen and (max-width: 1025px) {
+  .battery {
+    padding: 2rem;
+  }
+  .battery .left {
+    margin-top: 2rem;
+  }
+  .battery .left h2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .battery {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .battery .left h2 {
+    font-size: 2.5rem;
+  }
+  .battery .left p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .battery .left h2 {
+    font-size: 2.3rem;
+  }
+  .battery .left p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .battery {
+    padding: 1rem 0.6rem;
+  }
+  .battery .left h2 {
+    font-size: 2.2rem;
+  }
+}
